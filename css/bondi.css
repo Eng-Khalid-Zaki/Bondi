@@ -1,0 +1,156 @@
+:root {
+  --dark-color: #19283f;
+  --green-color: #33d1cc;
+  --pink-color: #ff3150;
+  --yellow-color: #ffa711;
+  --section-color: #eff7fa;
+}
+body {
+  font-family: "Robott" sans-serif;
+  height: 2000px;
+}
+.navbar {
+  background-color: var(--dark-color);
+}
+.navbar .navbar-nav .nav-link {
+  color: white;
+  font-weight: bold;
+}
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:active {
+  color: var(--green-color);
+}
+.search {
+  color: var(--green-color);
+  border-left: 1px solid var(--green-color);
+}
+.bars {
+  color: white;
+}
+.landing {
+  background-color: var(--dark-color);
+  min-height: calc(100vh - 72px);
+}
+.main-btn {
+  background-color: var(--pink-color);
+  color: var(--yellow-color);
+  padding: 0.5rem 1rem;
+}
+.main-title::after {
+  content: "";
+  height: 2px;
+  width: 120px;
+  position: absolute;
+  background-color: var(--green-color);
+  left: 50%;
+  translate: -50%;
+}
+.feat .icon-holder {
+  height: 200px;
+}
+.feat .icon-holder svg {
+  left: 50%;
+  transform: translateX(-50%);
+  color: var(--green-color);
+}
+.feat .icon-holder .number {
+  font-size: 12rem;
+  color: var(--section-color);
+}
+.feat h4 {
+  color: var(--yellow-color);
+}
+.our-work {
+  background-color: var(--section-color);
+}
+.our-work ul li {
+  margin-left: 5px;
+  padding: 0.5rem 1rem;
+}
+
+.our-work ul .active {
+  background-color: var(--pink-color);
+  color: var(--yellow-color);
+}
+.our-work ul li:hover:not(.active) {
+  color: var(--pink-color);
+}
+.work-image {
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.our-work .main-btn {
+  margin-top: 30px;
+}
+.stuff .description {
+  max-width: 500px;
+  margin: auto;
+  margin-top: 50px;
+}
+.stuff .stuff-paragraphs {
+  margin-top: 75px;
+}
+.team {
+  background-color: var(--section-color);
+}
+.team h3 {
+  color: var(--yellow-color);
+}
+.team img {
+  overflow: hidden;
+}
+.team .box {
+  min-height: 475px;
+}
+.team .box h4 {
+  background-color: var(--green-color);
+}
+.project {
+  background-color: var(--dark-color);
+}
+.subscribe {
+  background-color: var(--yellow-color);
+}
+.subscribe input[type="text"] {
+  border: none;
+  border-bottom: 1px solid white;
+}
+.subscribe input[type="text"]:focus {
+  outline: none;
+}
+.subscribe ::placeholder {
+  color: white;
+}
+.subscribe input[type="submit"] {
+  background-color: var(--dark-color);
+  color: var(--yellow-color);
+}
+.footer {
+  background-color: var(--dark-color);
+}
+.info > p span {
+  color: var(--green-color);
+}
+.info > div span {
+  color: var(--yellow-color);
+}
+.facebook,
+.twitter,
+.youtube,
+.linkedin {
+  width: 20px;
+  height: 20px;
+}
+.facebook {
+  color: #1877f2;
+}
+.twitter {
+  color: #1da1f2;
+}
+.youtube {
+  color: #ff0000;
+}
+.linkedin {
+  color: #0a66c2;
+}
